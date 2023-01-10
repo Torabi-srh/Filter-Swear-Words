@@ -96,7 +96,7 @@ class Censor
     }
     
     // return string
-    public function Clean($text)
+    public function clean($text)
     {
         if ($this->lemmatize) {
             $text = $this->lemmatize_input($text);
